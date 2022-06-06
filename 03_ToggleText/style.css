@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: lightgray;
+}
+
+.container {
+    width: 700px;
+    height: 100vh;
+    background: #fff;
+}
+
+.box {
+    padding-top: 130px;
+}
+
+.btn_box {
+    margin-top: 10px;
+    text-align: center;
+    /* margin: 200px auto; */
+}
+
+.title {
+    text-align: center;
+}
