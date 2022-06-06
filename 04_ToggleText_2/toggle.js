@@ -4,13 +4,16 @@ window.onload = () => {
     let textShow = document.querySelector(".textShow");
     let colorChange = document.querySelector(".colorChange");
 
+
     textShow.addEventListener("click", () => {
         title.classList.toggle("show");
         let titleToggle = document.querySelector('.show');
         if (titleToggle) {
             textShow.innerHTML = "텍스트 숨기기";
+            colorChange.style.visibility = "visible";
         } else {
             textShow.innerHTML = "텍스트 노출";
+            colorChange.style.visibility = "hidden";
         }
     });
     colorChange.addEventListener("click", () => {
